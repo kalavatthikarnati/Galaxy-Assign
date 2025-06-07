@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     background: url('/imagesfolder/images2.jpeg');
+     background: url('./imagesfolder/images2.jpeg');
     
    
 }
@@ -28,7 +28,7 @@ h1{
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    background: url('/imagesfolder/e1.jpeg');
+    background: url('./imagesfolder/e1.jpeg');
     position: relative;
     animation: earth-orbit 7s linear infinite;
 }
@@ -38,7 +38,7 @@ h1{
     height: 45px;
     border-radius: 50%;
     position: absolute;
-    background:url('/imagesfolder/m1.jpeg') ;
+    background:url('./imagesfolder/m1.jpeg') ;
         border: none;
         background-size: cover;
         animation: moon-orbit 3.5s linear infinite;
